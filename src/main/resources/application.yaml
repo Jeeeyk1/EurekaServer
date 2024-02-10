@@ -1,0 +1,16 @@
+
+server:
+  port: 8761
+  
+  
+  eureka:
+    instance:
+      hostname: localhost
+    client:
+        register-with-eureka: false
+        fetch-registry: true
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
